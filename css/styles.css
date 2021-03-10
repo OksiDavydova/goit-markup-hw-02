@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+:root {
+  --big-text: rgb(33, 33, 33);
+  --small-text: rgb(117, 117, 117);
+  --back-black: rgb(0, 0, 0);
+  --back-grey: rgb(236, 236, 236);
+  --col-for-button: rgb(33, 150, 243);
+}
+.hero {
+  background-color: var(--back-black);
+  color: rgb(255, 255, 255);
+}
