@@ -52,10 +52,10 @@ address {
 
 /*--ссылки--*/
 .link {
- font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--text-primery-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-primery-color);
 }
 
 .site-nav .link {
@@ -109,19 +109,19 @@ color: var(--text-primery-color);
 }
 
 /*--кнопки-фильтры со страницы "portfolio"--*/
-.filter-button { 
-  font-family: inherit; 
+.filter-button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   color: var(--text-title-color);
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   cursor: pointer;
-} 
+}
 .filter-button:hover,
 .filter-button:focus {
-  --text-title-color:var(--text-decoration-color);
-  background-color: #2196F3;
+  --text-title-color: var(--text-decoration-color);
+  background-color: #2196f3;
 }
 
 /*--елементы списков*/
@@ -137,10 +137,10 @@ color: var(--text-primery-color);
 }
 
 .products-title {
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color:var(--text-title-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-title-color);
 }
 
 .list-item-text,
@@ -154,8 +154,8 @@ color:var(--text-title-color);
 }
 
 .products-type {
-font-size: 16px;
-line-height: 1.87;
+  font-size: 16px;
+  line-height: 1.87;
 }
 /*--Наша команда--*/
 .team {
@@ -170,7 +170,7 @@ line-height: 1.87;
 }
 
 .team-number-position {
-  color: var(--text-primery-color); 
+  color: var(--text-primery-color);
 }
 
 /*--футер--*/
@@ -187,14 +187,4 @@ line-height: 1.87;
 
 .footer .logo-title {
   --text-title-color: var(--text-decoration-color);
-
-  
-
-
-
-
-
-   
-
- 
-
+}
