@@ -1,5 +1,5 @@
 :root {
-  --text-title-color: rgb(33, 33, 33); /* цвет заглавий */
+  --text-title-color: #212121; /* цвет заглавий */
   --text-primery-color: #757575; /* цвет текста*/
   --text-decoration-color: #ffffff;
   --bg-primary-color: #ffffff; /*основной цвет фона*/
@@ -91,13 +91,14 @@ address {
 
 /*--кнопка "Заказать услугу"--*/
 .button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.89;
   letter-spacing: 0.06em;
   color: var(--text-decoration-color);
-  cursor: pointer;
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
@@ -105,13 +106,14 @@ address {
 }
 
 /*--кнопки-фильтры со страницы "portfolio"--*/
-.filter-button {  
+.filter-button { 
+  font-family: inherit; 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   color: var(--text-title-color);
-  cursor: pointer;
   background-color: #F5F4FA;
+  cursor: pointer;
 } 
 .filter-button:hover,
 .filter-button:focus {
@@ -167,6 +169,7 @@ line-height: 1.87;
 .team-number-position {
   color: var(--text-primery-color); 
 }
+
 /*--футер--*/
 .footer {
   font-weight: 400;
