@@ -52,7 +52,10 @@ address {
 
 /*--ссылки--*/
 .link {
-  color: var(--text-primery-color);
+ font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--text-primery-color);
 }
 
 .site-nav .link {
@@ -173,9 +176,13 @@ line-height: 1.87;
 /*--футер--*/
 .footer {
   font-weight: 400;
-  line-height: 2;
+  line-height: 1.71;
   background-color: var(--bg-accent-color);
   color: var(--text-decoration-color);
+}
+.footer .link {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .footer .logo-title {
